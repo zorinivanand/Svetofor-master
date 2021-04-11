@@ -37,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
             mInfoTextView.setText(R.string.green);
             mConstraintLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.green));
         }
+    public void onYellowButtonClick (View view){
+        mInfoTextView.setText("YELLOW");
+        mConstraintLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.yellow));
+    }
 
     public void setmConstraintLayout(ConstraintLayout mConstraintLayout) {
         this.mConstraintLayout = mConstraintLayout;
