@@ -11,7 +11,7 @@
         android:id="@+id/buttonTry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="99dp"
+        android:layout_marginTop="66dp"
         android:onClick="onTryClick"
         android:text="TRY IT"
         app:backgroundTint="#F44336"
@@ -23,11 +23,12 @@
         android:id="@+id/buttonAbout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="66dp"
+        android:onClick="onAboutClick"
         android:text="About"
         app:backgroundTint="#3F51B5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonTry" />
 
@@ -35,7 +36,6 @@
         android:id="@+id/textViewHello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
         android:text="Hello, this is a simulation of traffic light operation"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="18sp"
@@ -44,4 +44,15 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="286dp"
+        android:layout_height="216dp"
+        android:layout_marginTop="66dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAbout"
+        app:srcCompat="@drawable/kisspng_traffic_light_photography_illustration_hand_painted_traffic_lights_5a80a0f669f093_3652669015183792544339" />
 </androidx.constraintlayout.widget.ConstraintLayout>

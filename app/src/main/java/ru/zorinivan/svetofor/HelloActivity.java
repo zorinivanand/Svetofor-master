@@ -17,4 +17,8 @@ public class HelloActivity extends AppCompatActivity {
         Intent intent = new Intent(HelloActivity.this, MainActivity.class);
         startActivity(intent);
     }
+    public void onAboutClick(View view) {
+        Intent intent = new Intent(HelloActivity.this, ActivityAbout.class);
+        startActivity(intent);
+    }
 }
